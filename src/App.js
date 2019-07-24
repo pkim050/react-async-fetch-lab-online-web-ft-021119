@@ -17,11 +17,7 @@ class App extends React.Component {
   }
 
   render() {
-    return(
-      <div>
-        {this.state.peopleInSpace}
-      </div>
-    )
+    return()
   }
 }
 
