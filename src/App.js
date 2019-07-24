@@ -3,7 +3,7 @@ import React from 'react';
 
 class App extends React.Component {
   state = {
-    data: []
+    // creating and inputting data on the new variable will cause same name as existing route error.
   }
 
   componentDidMount() {
