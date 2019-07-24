@@ -20,7 +20,7 @@ class App extends React.Component {
   render() {
     return(
       <div>
-        <p>Testing</p>
+        {this.state.peopleInSpace.map(person => person.name)}
       </div>
     )
   }
