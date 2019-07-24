@@ -9,7 +9,8 @@ class App extends React.Component {
     fetch('http://api.open-notify.org/astros.json')
     .then(resp => resp.json())
     .then(data => {
-      this.setState({peopleInSpace: data}))
+      this.setState({peopleInSpace: data})
+    })
   }
   render() {
     return(
