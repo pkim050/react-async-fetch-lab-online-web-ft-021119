@@ -3,7 +3,7 @@ import React from 'react';
 
 class App extends React.Component {
   state = {
-    peopleInSpace = []
+    peopleInSpace: []
   }
   componentDidMount() {
     fetch('http://api.open-notify.org/astros.json')
